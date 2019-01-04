@@ -1,5 +1,6 @@
 import React from "react";
 import AuthUserContext from './context'
+import withAuthentication from './withAuthentication'
 
 const Session = () => (
   <div>
@@ -9,4 +10,4 @@ const Session = () => (
 
 export default Session;
 
-export { AuthUserContext };
+export { AuthUserContext, withAuthentication };
